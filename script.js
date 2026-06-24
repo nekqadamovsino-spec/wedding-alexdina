@@ -1,4 +1,4 @@
-const weddingDate = new Date('2026-06-27T14:00:00+03:00');
+const weddingDate = new Date('2026-07-25T14:00:00+03:00');
 function tick(){
   const now = new Date();
   let diff = weddingDate - now;
