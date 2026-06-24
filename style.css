@@ -33,3 +33,56 @@
 .gallery img{
   transition:.3s;
 }
+/* ===== Место торжества ===== */
+
+.gallery a{
+  display:block;
+  position:relative;
+  overflow:hidden;
+  text-decoration:none;
+}
+
+.gallery a::after{
+  content:"Открыть карту";
+  position:absolute;
+  left:50%;
+  bottom:20px;
+  transform:translateX(-50%);
+  background:rgba(0,0,0,.45);
+  color:#fff;
+  padding:12px 20px;
+  border-radius:30px;
+  font-size:12px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  backdrop-filter:blur(4px);
+}
+
+.gallery a:hover img{
+  transform:scale(1.03);
+}
+
+.gallery img{
+  transition:.3s;
+}
+
+/* Карточка справа */
+
+.gallery-note{
+  height:430px;
+  background:#f7f1e9;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:40px;
+  font-size:18px;
+  line-height:1.8;
+}
+
+.gallery-note div{
+  font-size:50px;
+  color:#b39472;
+  margin-bottom:20px;
+}
