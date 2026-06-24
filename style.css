@@ -129,3 +129,38 @@
   line-height:1.8;
   margin:0;
 }
+/* ===== Убираем огромную пустоту на первом экране ===== */
+
+.hero-minimal{
+  min-height:auto !important;
+  display:block !important;
+}
+
+.hero-minimal .hero-card{
+  min-height:auto !important;
+  padding:85px 20px 25px !important;
+}
+
+.hero-minimal h1{
+  margin:14px 0 10px !important;
+}
+
+.hero-minimal .divider{
+  margin:12px 0 !important;
+}
+
+.hero-minimal .date{
+  margin:8px 0 16px !important;
+}
+
+.hero-minimal .script{
+  margin:0 !important;
+}
+
+.countdown-section{
+  padding:18px 6vw 35px !important;
+}
+
+.countdown{
+  margin-top:22px !important;
+}
