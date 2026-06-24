@@ -107,3 +107,25 @@
   color:var(--gold);
   font-size:22px;
 }
+.important-box{
+  max-width:760px;
+  margin:0 auto;
+  padding:0 24px;
+}
+
+.important-box article{
+  text-align:center;
+  padding:34px 20px;
+  border-bottom:1px solid var(--line);
+}
+
+.important-box h3{
+  color:var(--gold);
+  margin-bottom:18px;
+}
+
+.important-box p{
+  font-size:17px;
+  line-height:1.8;
+  margin:0;
+}
