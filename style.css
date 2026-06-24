@@ -164,3 +164,36 @@
 .countdown{
   margin-top:22px !important;
 }
+/* ===== Убираем лишнюю пустоту в анкете и подвале ===== */
+
+.rsvp{
+  padding:45px 6vw 55px !important;
+}
+
+.rsvp h2{
+  margin:22px 0 24px !important;
+}
+
+.rsvp p{
+  margin:0 auto 28px !important;
+  max-width:760px;
+}
+
+.buttons{
+  margin-top:24px !important;
+}
+
+footer{
+  padding:28px 20px 38px !important;
+}
+
+footer .script{
+  margin:0 !important;
+}
+.details-important{
+  padding:45px 24px 35px !important;
+}
+
+.program{
+  padding-bottom:45px !important;
+}
